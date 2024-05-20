@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "oresmod:block/lighty_rusted_cut_steel",
+    "side": "oresmod:block/lighty_rusted_cut_steel",
+    "top": "oresmod:block/lighty_rusted_cut_steel"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "oresmod:cobalt_block"
+    },
+    "I": {
+      "item": "oresmod:cobalt_ingot"
+    },
+    "P": {
+      "item": "oresmod:duel_handled_power_drive"
+    }
+  },
+  "pattern": [
+    "  P",
+    "IIB"
+  ],
+  "result": {
+    "item": "oresmod:cobalt_chainsaw"
+  },
+  "show_notification": true
+}

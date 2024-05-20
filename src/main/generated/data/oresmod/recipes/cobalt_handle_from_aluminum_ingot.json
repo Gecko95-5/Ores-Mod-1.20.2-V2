@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "oresmod:cobalt_ingot"
+    },
+    "I": {
+      "item": "oresmod:aluminum_ingot"
+    }
+  },
+  "pattern": [
+    " C ",
+    "C C",
+    "CIC"
+  ],
+  "result": {
+    "item": "oresmod:cobalt_handle"
+  },
+  "show_notification": true
+}

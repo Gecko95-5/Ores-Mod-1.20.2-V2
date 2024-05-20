@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "oresmod:gilded_marble"
+  },
+  "result": "oresmod:gilded_marble_bricks"
+}

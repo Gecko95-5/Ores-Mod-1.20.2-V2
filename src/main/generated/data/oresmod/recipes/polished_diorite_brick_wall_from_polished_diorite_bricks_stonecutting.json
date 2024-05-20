@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "oresmod:polished_diorite_bricks"
+  },
+  "result": "oresmod:polished_diorite_brick_wall"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "oresmod:item/stonebark_hanging_sign"
+  }
+}

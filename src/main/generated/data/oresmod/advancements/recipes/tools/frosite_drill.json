@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_frosite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:frosite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_frosite_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:frosite_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_handled_power_drive": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:handled_power_drive"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:frosite_drill"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_frosite",
+      "has_frosite_block",
+      "has_handled_power_drive"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:frosite_drill"
+    ]
+  },
+  "sends_telemetry_event": false
+}

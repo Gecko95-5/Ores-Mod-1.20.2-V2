@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "oresmod:leafite_block"
+    },
+    "L": {
+      "item": "oresmod:leafite"
+    },
+    "P": {
+      "item": "oresmod:handled_power_drive"
+    }
+  },
+  "pattern": [
+    " L ",
+    "LBP",
+    " L "
+  ],
+  "result": {
+    "item": "oresmod:leafite_drill"
+  },
+  "show_notification": true
+}

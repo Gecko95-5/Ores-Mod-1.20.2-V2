@@ -1,0 +1,99 @@
+{
+  "parent": "oresmod:obtaining_copper_ingot",
+  "criteria": {
+    "iron": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:iron_drill"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diamond": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:diamond_drill"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gold": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:golden_drill"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "aluminum": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:aluminum_drill"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "nickel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:nickel_drill"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:copper_drill"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft a Drill",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "oresmod:copper_drill"
+    },
+    "show_toast": true,
+    "title": "Ultra Miner"
+  },
+  "requirements": [
+    [
+      "iron",
+      "diamond",
+      "gold",
+      "aluminum",
+      "nickel",
+      "copper"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

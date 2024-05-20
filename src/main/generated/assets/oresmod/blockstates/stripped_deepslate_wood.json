@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "oresmod:block/stripped_deepslate_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "oresmod:block/stripped_deepslate_wood"
+    },
+    "axis=z": {
+      "model": "oresmod:block/stripped_deepslate_wood",
+      "x": 90
+    }
+  }
+}

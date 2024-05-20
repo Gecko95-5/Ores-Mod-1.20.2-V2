@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aluminum_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:aluminum_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stonecutter_from_aluminum_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_aluminum_ingot",
+      "has_stone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stonecutter_from_aluminum_ingot"
+    ]
+  },
+  "sends_telemetry_event": false
+}

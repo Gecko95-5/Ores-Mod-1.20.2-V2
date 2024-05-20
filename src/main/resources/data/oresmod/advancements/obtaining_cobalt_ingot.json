@@ -1,0 +1,34 @@
+{
+  "parent": "oresmod:obtaining_copper_ingot",
+  "criteria": {
+    "cobalt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:cobalt_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft or Obtain a Cobalt Ingot",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "oresmod:cobalt_ingot"
+    },
+    "show_toast": true,
+    "title": "The Nether's Bluest Ore"
+  },
+  "requirements": [
+    [
+      "cobalt"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

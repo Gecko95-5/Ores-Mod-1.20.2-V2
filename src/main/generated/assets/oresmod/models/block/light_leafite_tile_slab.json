@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "oresmod:block/light_leafite_tiles",
+    "side": "oresmod:block/light_leafite_tiles",
+    "top": "oresmod:block/light_leafite_tiles"
+  }
+}

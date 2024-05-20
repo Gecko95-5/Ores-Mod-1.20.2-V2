@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "oresmod:bomb"
+    },
+    "F": {
+      "item": "oresmod:frosite"
+    },
+    "I": {
+      "item": "oresmod:ice_chunk"
+    }
+  },
+  "pattern": [
+    " IF",
+    "IBI",
+    " I "
+  ],
+  "result": {
+    "item": "oresmod:ice_bomb"
+  },
+  "show_notification": true
+}

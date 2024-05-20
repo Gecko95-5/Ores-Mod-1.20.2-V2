@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "sannite",
+  "ingredient": {
+    "item": "oresmod:red_sandstone_sandite_ore"
+  },
+  "result": "oresmod:sandite"
+}

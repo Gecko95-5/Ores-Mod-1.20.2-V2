@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chiseled_leafite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:chiseled_leafite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:leafite_from_chiseled_leafite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chiseled_leafite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:leafite_from_chiseled_leafite"
+    ]
+  },
+  "sends_telemetry_event": false
+}

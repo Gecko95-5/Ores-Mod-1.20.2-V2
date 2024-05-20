@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lighty_rusted_steel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:lighty_rusted_steel_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:lighty_rusted_steel_trapdoor_from_lighty_rusted_steel_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lighty_rusted_steel_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:lighty_rusted_steel_trapdoor_from_lighty_rusted_steel_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

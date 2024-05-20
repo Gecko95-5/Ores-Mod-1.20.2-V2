@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "oresmod:block/void_sickness_potion_tank"
+  }
+}

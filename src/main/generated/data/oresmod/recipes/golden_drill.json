@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:gold_block"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "P": {
+      "item": "oresmod:handled_power_drive"
+    }
+  },
+  "pattern": [
+    " G ",
+    "GBP",
+    " G "
+  ],
+  "result": {
+    "item": "oresmod:golden_drill"
+  },
+  "show_notification": true
+}

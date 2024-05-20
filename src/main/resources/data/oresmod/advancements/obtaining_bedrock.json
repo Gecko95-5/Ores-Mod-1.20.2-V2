@@ -1,0 +1,34 @@
+{
+  "parent": "oresmod:ores_mod",
+  "criteria": {
+    "bedrock": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:bedrock_shard"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Break a Cracked Bedrock Block",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "oresmod:cracked_bedrock"
+    },
+    "show_toast": true,
+    "title": "Not Unbreakable"
+  },
+  "requirements": [
+    [
+      "bedrock"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

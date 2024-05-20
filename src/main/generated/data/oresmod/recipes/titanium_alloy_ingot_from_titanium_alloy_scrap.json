@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "oresmod:aluminum_ingot"
+    },
+    "T": {
+      "item": "oresmod:titanium_alloy_scrap"
+    }
+  },
+  "pattern": [
+    "TTT",
+    "TAA",
+    "AA "
+  ],
+  "result": {
+    "item": "oresmod:titanium_alloy_ingot"
+  },
+  "show_notification": true
+}

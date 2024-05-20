@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:aluminum_pressure_plate",
+    "oresmod:nickel_pressure_plate",
+    "oresmod:steel_pressure_plate",
+    "oresmod:frosite_pressure_plate",
+    "oresmod:light_frosite_pressure_plate",
+    "oresmod:darken_frosite_pressure_plate"
+  ]
+}

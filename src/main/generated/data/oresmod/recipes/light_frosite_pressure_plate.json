@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "oresmod:frosite_pressure_plate"
+    },
+    {
+      "item": "oresmod:powdered_salt"
+    }
+  ],
+  "result": {
+    "item": "oresmod:light_frosite_pressure_plate"
+  }
+}

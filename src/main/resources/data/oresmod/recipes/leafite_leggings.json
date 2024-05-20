@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "oresmod:leafite"
+    },
+    "S": {
+      "tag": "minecraft:leaves"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "L L",
+    "L L"
+  ],
+  "result": {
+    "item": "oresmod:leafite_leggings"
+  },
+  "show_notification": true
+}

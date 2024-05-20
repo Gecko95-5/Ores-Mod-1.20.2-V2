@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "oresmod:block/fossilized_silver_scale_core_bottom",
+    "side": "oresmod:block/fossilized_silver_scale_core_side",
+    "top": "oresmod:block/fossilized_silver_scale_core_top"
+  }
+}

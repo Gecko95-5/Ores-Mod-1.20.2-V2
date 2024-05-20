@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "oresmod:handled_power_drive"
+    }
+  },
+  "pattern": [
+    " I ",
+    "IBP",
+    " I "
+  ],
+  "result": {
+    "item": "oresmod:iron_drill"
+  },
+  "show_notification": true
+}

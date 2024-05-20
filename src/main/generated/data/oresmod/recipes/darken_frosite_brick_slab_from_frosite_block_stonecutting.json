@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "oresmod:frosite_block"
+  },
+  "result": "oresmod:darken_frosite_brick_slab"
+}

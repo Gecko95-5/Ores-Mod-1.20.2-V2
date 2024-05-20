@@ -1,0 +1,49 @@
+{
+  "parent": "oresmod:obtaining_bedrock",
+  "criteria": {
+    "armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:bedrock_helmet"
+            ]
+          },
+          {
+            "items": [
+              "oresmod:bedrock_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "oresmod:bedrock_leggings"
+            ]
+          },
+          {
+            "items": [
+              "oresmod:bedrock_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Get a Full suit of Bedrock Armor",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "oresmod:bedrock_chestplate"
+    },
+    "show_toast": true,
+    "title": "Heavy Duty"
+  },
+  "requirements": [
+    [
+      "armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "item": "oresmod:end_ite"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "EE",
+    " S",
+    " S"
+  ],
+  "result": {
+    "item": "oresmod:end_ite_hoe"
+  },
+  "show_notification": true
+}

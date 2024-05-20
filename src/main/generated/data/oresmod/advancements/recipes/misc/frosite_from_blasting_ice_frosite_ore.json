@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ice_frosite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:ice_frosite_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:frosite_from_blasting_ice_frosite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ice_frosite_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:frosite_from_blasting_ice_frosite_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "oresmod:block/stonebark_pressure_plate"
+    },
+    "powered=true": {
+      "model": "oresmod:block/stonebark_pressure_plate_down"
+    }
+  }
+}

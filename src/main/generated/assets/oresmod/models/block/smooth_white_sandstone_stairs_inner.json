@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "oresmod:block/smooth_white_sandstone",
+    "side": "oresmod:block/smooth_white_sandstone",
+    "top": "oresmod:block/smooth_white_sandstone"
+  }
+}

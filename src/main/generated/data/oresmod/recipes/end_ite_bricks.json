@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "E": {
+      "item": "oresmod:end_ite_block"
+    },
+    "I": {
+      "item": "oresmod:end_ite"
+    }
+  },
+  "pattern": [
+    "IE",
+    "EI"
+  ],
+  "result": {
+    "count": 4,
+    "item": "oresmod:end_ite_bricks"
+  },
+  "show_notification": true
+}

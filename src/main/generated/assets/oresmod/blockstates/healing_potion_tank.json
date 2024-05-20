@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "oresmod:block/healing_potion_tank"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "oresmod:chiseled_frosite"
+    }
+  ],
+  "result": {
+    "count": 18,
+    "item": "oresmod:frosite"
+  }
+}

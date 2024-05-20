@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:gold_block"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "P": {
+      "item": "oresmod:handled_power_drive"
+    }
+  },
+  "pattern": [
+    "  P",
+    "GGB"
+  ],
+  "result": {
+    "item": "oresmod:golden_chainsaw"
+  },
+  "show_notification": true
+}

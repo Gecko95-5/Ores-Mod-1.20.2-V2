@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "oresmod:tungsten_ingot"
+    }
+  },
+  "pattern": [
+    "T",
+    "S",
+    "S"
+  ],
+  "result": {
+    "item": "oresmod:tungsten_shovel"
+  },
+  "show_notification": true
+}

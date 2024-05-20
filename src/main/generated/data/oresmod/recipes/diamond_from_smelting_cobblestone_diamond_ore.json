@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "diamond",
+  "ingredient": {
+    "item": "oresmod:cobblestone_diamond_ore"
+  },
+  "result": "minecraft:diamond"
+}

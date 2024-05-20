@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "N": {
+      "item": "oresmod:nickel_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "N",
+    "N",
+    "S"
+  ],
+  "result": {
+    "item": "oresmod:nickel_sword"
+  },
+  "show_notification": true
+}

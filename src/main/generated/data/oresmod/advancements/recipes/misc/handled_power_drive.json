@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_copper_handle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:copper_handle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_power_drive": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:power_drive"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:handled_power_drive"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_power_drive",
+      "has_copper_handle"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:handled_power_drive"
+    ]
+  },
+  "sends_telemetry_event": false
+}

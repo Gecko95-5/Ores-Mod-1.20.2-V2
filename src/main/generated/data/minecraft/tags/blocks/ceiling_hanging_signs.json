@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:stonebark_hanging_sign",
+    "oresmod:deepbark_hanging_sign",
+    "oresmod:leafite_hanging_sign"
+  ]
+}

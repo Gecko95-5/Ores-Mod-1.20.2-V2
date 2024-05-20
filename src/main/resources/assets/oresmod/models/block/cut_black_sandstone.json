@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "oresmod:block/black_sandstone_top",
+    "side": "oresmod:block/cut_black_sandstone"
+  }
+}

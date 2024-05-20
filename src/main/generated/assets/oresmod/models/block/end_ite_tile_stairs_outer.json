@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "oresmod:block/end_ite_tiles",
+    "side": "oresmod:block/end_ite_tiles",
+    "top": "oresmod:block/end_ite_tiles"
+  }
+}

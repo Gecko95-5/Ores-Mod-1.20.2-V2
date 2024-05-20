@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "oresmod:block/ice_pillar_bottom",
+    "side": "oresmod:block/ice_pillar_side",
+    "top": "oresmod:block/ice_pillar_top"
+  }
+}

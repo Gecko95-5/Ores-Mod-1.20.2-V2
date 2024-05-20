@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "oresmod:block/rusted_steel_block",
+    "side": "oresmod:block/rusted_steel_block",
+    "top": "oresmod:block/rusted_steel_block"
+  }
+}

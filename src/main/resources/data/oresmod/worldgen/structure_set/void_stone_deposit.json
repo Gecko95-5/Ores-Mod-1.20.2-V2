@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "oresmod:void_stone_deposit",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 74321042,
+    "spacing": 20,
+    "separation": 6
+  }
+}

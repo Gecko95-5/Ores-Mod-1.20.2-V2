@@ -1,0 +1,34 @@
+{
+  "parent": "oresmod:towers",
+  "criteria": {
+    "icy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:icy_dagger"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Find the Icy Dagger",
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "oresmod:icy_dagger"
+    },
+    "show_toast": true,
+    "title": "Quick and Icy"
+  },
+  "requirements": [
+    [
+      "icy"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

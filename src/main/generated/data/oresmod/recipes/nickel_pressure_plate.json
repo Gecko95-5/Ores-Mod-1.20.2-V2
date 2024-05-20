@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "N": {
+      "item": "oresmod:nickel_ingot"
+    }
+  },
+  "pattern": [
+    "NN"
+  ],
+  "result": {
+    "item": "oresmod:nickel_pressure_plate"
+  },
+  "show_notification": true
+}

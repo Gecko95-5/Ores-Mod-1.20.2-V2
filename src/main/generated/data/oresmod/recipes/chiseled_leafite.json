@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "oresmod:leafite_block"
+    },
+    "L": {
+      "item": "oresmod:leafite"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BLB",
+    "BBB"
+  ],
+  "result": {
+    "count": 4,
+    "item": "oresmod:chiseled_leafite"
+  },
+  "show_notification": true
+}

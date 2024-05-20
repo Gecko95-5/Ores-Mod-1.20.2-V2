@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "oresmod:frosite"
+    },
+    "I": {
+      "item": "minecraft:blue_ice"
+    }
+  },
+  "pattern": [
+    " F ",
+    "FIF",
+    " F "
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:blue_ice"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "oresmod:duel_handled_power_drive"
+    },
+    "P": {
+      "item": "oresmod:platinum_ingot"
+    }
+  },
+  "pattern": [
+    "P",
+    "P",
+    "D"
+  ],
+  "result": {
+    "item": "oresmod:platinum_sword"
+  },
+  "show_notification": true
+}

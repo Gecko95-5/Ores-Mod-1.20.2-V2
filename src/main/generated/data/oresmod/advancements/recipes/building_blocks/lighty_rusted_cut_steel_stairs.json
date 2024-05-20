@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lighty_rusted_cut_steel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:lighty_rusted_cut_steel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:lighty_rusted_cut_steel_stairs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lighty_rusted_cut_steel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:lighty_rusted_cut_steel_stairs"
+    ]
+  },
+  "sends_telemetry_event": false
+}

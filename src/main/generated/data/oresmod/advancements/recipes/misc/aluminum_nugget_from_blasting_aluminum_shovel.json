@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aluminum_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:aluminum_shovel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:aluminum_nugget_from_blasting_aluminum_shovel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_aluminum_shovel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:aluminum_nugget_from_blasting_aluminum_shovel"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_duel_handled_power_drive": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:duel_handled_power_drive"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_steel_compound": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:steel_compound"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_steel_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:steel_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:steel_drill"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_steel_compound",
+      "has_steel_ingot",
+      "has_duel_handled_power_drive"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:steel_drill"
+    ]
+  },
+  "sends_telemetry_event": false
+}

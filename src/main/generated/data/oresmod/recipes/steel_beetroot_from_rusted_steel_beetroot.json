@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "oresmod:rusted_steel_beetroot"
+    },
+    {
+      "item": "oresmod:powdered_salt"
+    }
+  ],
+  "result": {
+    "item": "oresmod:steel_beetroot"
+  }
+}

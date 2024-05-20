@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "oresmod:polished_bedrock"
+  },
+  "result": "oresmod:chiseled_polished_bedrock"
+}

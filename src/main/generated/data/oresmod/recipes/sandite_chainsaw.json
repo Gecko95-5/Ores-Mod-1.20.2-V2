@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "oresmod:sandite_block"
+    },
+    "P": {
+      "item": "oresmod:handled_power_drive"
+    },
+    "S": {
+      "item": "oresmod:sandite"
+    }
+  },
+  "pattern": [
+    "  P",
+    "SSB"
+  ],
+  "result": {
+    "item": "oresmod:sandite_chainsaw"
+  },
+  "show_notification": true
+}

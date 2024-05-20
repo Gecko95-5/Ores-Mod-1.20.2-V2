@@ -1,0 +1,36 @@
+{
+  "parent": "oresmod:silver_crown",
+  "criteria": {
+    "oresmod:silverwyrm": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "oresmod:silverwyrm"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Kill the Silverwyrm",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "oresmod:silverwyrm_trophy"
+    },
+    "show_toast": true,
+    "title": "You Kill The Silver Menace"
+  },
+  "requirements": [
+    [
+      "oresmod:silverwyrm"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

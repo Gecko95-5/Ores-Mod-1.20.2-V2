@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "oresmod:raw_salt"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "oresmod:powdered_salt"
+  }
+}

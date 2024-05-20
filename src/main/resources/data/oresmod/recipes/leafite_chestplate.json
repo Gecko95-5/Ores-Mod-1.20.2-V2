@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "oresmod:leafite"
+    },
+    "S": {
+      "tag": "minecraft:leaves"
+    }
+  },
+  "pattern": [
+    "S S",
+    "LLL",
+    "LLL"
+  ],
+  "result": {
+    "item": "oresmod:leafite_chestplate"
+  },
+  "show_notification": true
+}

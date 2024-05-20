@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "oresmod:leafite"
+    },
+    "S": {
+      "item": "minecraft:mangrove_propagule"
+    }
+  },
+  "pattern": [
+    " L ",
+    "LSL",
+    " L "
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:mangrove_propagule"
+  },
+  "show_notification": true
+}

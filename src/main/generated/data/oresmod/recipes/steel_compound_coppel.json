@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "oresmod:nickel_ingot"
+    },
+    "I": {
+      "item": "oresmod:steel_compound_copper"
+    }
+  },
+  "pattern": [
+    "###",
+    "#I#",
+    "###"
+  ],
+  "result": {
+    "item": "oresmod:steel_compound_coppel"
+  },
+  "show_notification": true
+}

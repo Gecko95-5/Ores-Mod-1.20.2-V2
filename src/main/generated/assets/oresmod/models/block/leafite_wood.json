@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "oresmod:block/leafite_log",
+    "side": "oresmod:block/leafite_log"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "oresmod:clay_boots"
+  },
+  "result": "oresmod:terracotta_boots"
+}

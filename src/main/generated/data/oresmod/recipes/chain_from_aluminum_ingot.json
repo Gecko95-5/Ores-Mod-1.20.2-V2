@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "oresmod:aluminum_ingot"
+    },
+    "N": {
+      "item": "oresmod:aluminum_nugget"
+    }
+  },
+  "pattern": [
+    "N",
+    "A",
+    "N"
+  ],
+  "result": {
+    "item": "minecraft:chain"
+  },
+  "show_notification": true
+}

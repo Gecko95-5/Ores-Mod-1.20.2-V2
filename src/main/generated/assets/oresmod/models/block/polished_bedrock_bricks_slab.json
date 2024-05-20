@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "oresmod:block/polished_bedrock_bricks",
+    "side": "oresmod:block/polished_bedrock_bricks",
+    "top": "oresmod:block/polished_bedrock_bricks"
+  }
+}

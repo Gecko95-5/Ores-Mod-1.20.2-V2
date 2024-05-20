@@ -1,0 +1,42 @@
+{
+  "structures": [
+    {
+      "structure": "oresmod:steel_cage_puffer",
+      "weight": 1
+    },
+    {
+      "structure": "oresmod:steel_cage_drowned",
+      "weight": 3
+    },
+    {
+      "structure": "oresmod:steel_cage_quarry",
+      "weight": 5
+    },
+    {
+      "structure": "oresmod:steel_cage_spider",
+      "weight": 3
+    },
+    {
+      "structure": "oresmod:steel_cage_zombie",
+      "weight": 5
+    },
+    {
+      "structure": "oresmod:steel_cage_cave_spiders",
+      "weight": 2
+    },
+    {
+      "structure": "oresmod:steel_cage_jungle_spider",
+      "weight": 2
+    },
+    {
+      "structure": "oresmod:steel_cage_husk",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 86243252,
+    "spacing": 32,
+    "separation": 12
+  }
+}

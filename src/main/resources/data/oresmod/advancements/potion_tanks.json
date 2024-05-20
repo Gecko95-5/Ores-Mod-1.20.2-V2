@@ -1,0 +1,216 @@
+{
+  "parent": "oresmod:water_tank",
+  "criteria": {
+    "healing": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:healing_potion_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "fire_resistance": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:fire_resistance_potion_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "regeneration": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:regeneration_potion_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "strength": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:strength_potion_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "swiftness": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:swiftness_potion_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "night_vision": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:night_vision_potion_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "invisibility": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:invisibility_potion_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "water_breathing": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:water_breathing_potion_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "leaping": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:leaping_potion_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "slow_falling": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:slow_falling_potion_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "poison": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:poison_potion_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "weakness": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:weakness_potion_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "harming": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:harming_potion_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "slowness": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:slowness_potion_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "turtle_master": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:turtle_master_potion_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft any Potion Tank",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "oresmod:healing_potion_tank"
+    },
+    "show_toast": true,
+    "title": "Tanker Brewery"
+  },
+  "requirements": [
+    [
+      "healing",
+      "fire_resistance",
+      "regeneration",
+      "strength",
+      "swiftness",
+      "night_vision",
+      "invisibility",
+      "water_breathing",
+      "leaping",
+      "slow_falling",
+      "poison",
+      "weakness",
+      "harming",
+      "slowness",
+      "turtle_master"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

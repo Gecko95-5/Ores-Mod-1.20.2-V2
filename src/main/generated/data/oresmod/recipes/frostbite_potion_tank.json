@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "oresmod:slowness_potion_tank"
+    },
+    "W": {
+      "item": "minecraft:blue_ice"
+    }
+  },
+  "pattern": [
+    " W ",
+    "WTW",
+    " W "
+  ],
+  "result": {
+    "item": "oresmod:frostbite_potion_tank"
+  },
+  "show_notification": true
+}

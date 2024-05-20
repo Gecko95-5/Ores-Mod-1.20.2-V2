@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oresmod:block/light_end_ite_tile_slab"
+    },
+    "type=double": {
+      "model": "oresmod:block/light_end_ite_tiles"
+    },
+    "type=top": {
+      "model": "oresmod:block/light_end_ite_tile_slab_top"
+    }
+  }
+}

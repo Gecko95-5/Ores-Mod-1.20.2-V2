@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "oresmod:block/deepslate_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "oresmod:block/deepslate_wood"
+    },
+    "axis=z": {
+      "model": "oresmod:block/deepslate_wood",
+      "x": 90
+    }
+  }
+}

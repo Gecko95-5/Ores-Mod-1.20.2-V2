@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "oresmod:lighty_rusted_steel_bars"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "S": {
+      "item": "oresmod:lighty_rusted_steel_block"
+    }
+  },
+  "pattern": [
+    "SBS",
+    "BGB",
+    "SBS"
+  ],
+  "result": {
+    "item": "oresmod:lighty_rusted_steel_lamp"
+  },
+  "show_notification": true
+}

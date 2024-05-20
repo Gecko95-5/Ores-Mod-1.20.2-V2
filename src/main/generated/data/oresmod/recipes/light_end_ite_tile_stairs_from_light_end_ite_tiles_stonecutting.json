@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "oresmod:light_end_ite_tiles"
+  },
+  "result": "oresmod:light_end_ite_tile_stairs"
+}

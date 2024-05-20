@@ -1,0 +1,60 @@
+{
+  "parent": "oresmod:obtaining_aluminum_ingot",
+  "criteria": {
+    "aluminum": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:steel_compound_aluminum"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "nickel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:steel_compound_nickel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:steel_compound_copper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft the First Part of the obtaining Steel",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "oresmod:iron_ball"
+    },
+    "show_toast": true,
+    "title": "Your on your way"
+  },
+  "requirements": [
+    [
+      "aluminum",
+      "nickel",
+      "copper"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

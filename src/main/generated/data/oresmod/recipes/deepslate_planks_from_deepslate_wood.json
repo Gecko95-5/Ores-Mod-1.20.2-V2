@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "oresmod:deepslate_wood"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "oresmod:deepslate_planks"
+  }
+}

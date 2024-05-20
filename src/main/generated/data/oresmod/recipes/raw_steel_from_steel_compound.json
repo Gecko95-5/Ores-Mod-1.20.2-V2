@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:raw_iron"
+    },
+    "S": {
+      "item": "oresmod:steel_compound"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SII",
+    "II "
+  ],
+  "result": {
+    "item": "oresmod:raw_steel"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "oresmod:block/darken_frosite_tiles",
+    "side": "oresmod:block/darken_frosite_tiles",
+    "top": "oresmod:block/darken_frosite_tiles"
+  }
+}

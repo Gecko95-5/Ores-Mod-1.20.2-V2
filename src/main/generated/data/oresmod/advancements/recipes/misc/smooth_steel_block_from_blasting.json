@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_steel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:raw_steel_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:smooth_steel_block_from_blasting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_steel_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:smooth_steel_block_from_blasting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

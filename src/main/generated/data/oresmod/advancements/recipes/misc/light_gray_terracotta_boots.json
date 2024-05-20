@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_light_gray_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_gray_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_terracotta_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:terracotta_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:light_gray_terracotta_boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_terracotta_boots",
+      "has_light_gray_dye"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:light_gray_terracotta_boots"
+    ]
+  },
+  "sends_telemetry_event": false
+}

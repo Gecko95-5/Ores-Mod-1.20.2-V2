@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "oresmod:harming_potion_tank"
+    },
+    "W": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+  "pattern": [
+    " W ",
+    "WTW",
+    " W "
+  ],
+  "result": {
+    "item": "oresmod:void_sickness_potion_tank"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sandite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:sandite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sandite_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sandite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sandite_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

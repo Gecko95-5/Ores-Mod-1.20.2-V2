@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nickel_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:nickel_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:nickel_nugget_from_blasting_nickel_helmet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nickel_helmet"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:nickel_nugget_from_blasting_nickel_helmet"
+    ]
+  },
+  "sends_telemetry_event": false
+}

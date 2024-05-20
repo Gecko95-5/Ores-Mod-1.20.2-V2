@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_beetroot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beetroot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_nickel_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:nickel_nugget"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:nickel_beetroot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nickel_nugget",
+      "has_beetroot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:nickel_beetroot"
+    ]
+  },
+  "sends_telemetry_event": false
+}

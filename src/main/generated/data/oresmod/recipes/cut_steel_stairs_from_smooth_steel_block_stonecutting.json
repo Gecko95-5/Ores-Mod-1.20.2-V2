@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "oresmod:smooth_steel_block"
+  },
+  "result": "oresmod:cut_steel_stairs"
+}

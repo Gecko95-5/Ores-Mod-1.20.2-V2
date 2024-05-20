@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "oresmod:block/slow_falling_potion_tank"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "S": {
+      "item": "oresmod:stonebark_planks"
+    }
+  },
+  "pattern": [
+    "SS"
+  ],
+  "result": {
+    "item": "oresmod:stonebark_pressure_plate"
+  },
+  "show_notification": true
+}

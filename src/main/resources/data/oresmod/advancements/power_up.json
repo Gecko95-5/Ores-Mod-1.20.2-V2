@@ -1,0 +1,34 @@
+{
+  "parent": "oresmod:defeat_a_silverwyrm",
+  "criteria": {
+    "silver": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:mandible_hatchet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft a Mandible Hatchet",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "oresmod:mandible_hatchet"
+    },
+    "show_toast": true,
+    "title": "Hatchet of Silver"
+  },
+  "requirements": [
+    [
+      "silver"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

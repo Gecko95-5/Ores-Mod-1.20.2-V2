@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "E": {
+      "item": "oresmod:end_ite"
+    }
+  },
+  "pattern": [
+    "ECE",
+    "E E"
+  ],
+  "result": {
+    "item": "oresmod:end_ite_helmet"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_duel_handled_power_drive": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:duel_handled_power_drive"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:titanium_alloy_drill"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_titanium_alloy_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:titanium_alloy_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_titanium_alloy_scrap": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:titanium_alloy_scrap"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_titanium_alloy_scrap",
+      "has_titanium_alloy_ingot",
+      "has_duel_handled_power_drive"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:titanium_alloy_drill"
+    ]
+  },
+  "sends_telemetry_event": false
+}

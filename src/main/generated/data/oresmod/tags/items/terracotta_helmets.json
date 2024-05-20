@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:black_terracotta_helmet",
+    "oresmod:blue_terracotta_helmet",
+    "oresmod:brown_terracotta_helmet",
+    "oresmod:cyan_terracotta_helmet",
+    "oresmod:gray_terracotta_helmet",
+    "oresmod:green_terracotta_helmet",
+    "oresmod:light_blue_terracotta_helmet",
+    "oresmod:light_gray_terracotta_helmet",
+    "oresmod:lime_terracotta_helmet",
+    "oresmod:magenta_terracotta_helmet",
+    "oresmod:orange_terracotta_helmet",
+    "oresmod:pink_terracotta_helmet",
+    "oresmod:purple_terracotta_helmet",
+    "oresmod:red_terracotta_helmet",
+    "oresmod:white_terracotta_helmet",
+    "oresmod:yellow_terracotta_helmet"
+  ]
+}

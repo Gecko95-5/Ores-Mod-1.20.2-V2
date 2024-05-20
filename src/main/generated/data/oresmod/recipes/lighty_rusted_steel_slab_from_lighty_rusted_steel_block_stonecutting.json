@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "oresmod:lighty_rusted_steel_block"
+  },
+  "result": "oresmod:lighty_rusted_steel_slab"
+}

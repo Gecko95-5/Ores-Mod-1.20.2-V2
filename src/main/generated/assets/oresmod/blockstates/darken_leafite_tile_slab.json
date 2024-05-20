@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oresmod:block/darken_leafite_tile_slab"
+    },
+    "type=double": {
+      "model": "oresmod:block/darken_leafite_tiles"
+    },
+    "type=top": {
+      "model": "oresmod:block/darken_leafite_tile_slab_top"
+    }
+  }
+}

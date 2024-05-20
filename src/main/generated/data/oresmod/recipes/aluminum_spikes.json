@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "oresmod:aluminum_ingot"
+    },
+    "B": {
+      "item": "oresmod:aluminum_bars"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BBB"
+  ],
+  "result": {
+    "item": "oresmod:aluminum_spikes"
+  },
+  "show_notification": true
+}

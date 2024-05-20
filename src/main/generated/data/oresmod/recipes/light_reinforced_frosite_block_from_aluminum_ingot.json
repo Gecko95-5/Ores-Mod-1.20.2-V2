@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "F": {
+      "item": "oresmod:light_frosite_block"
+    },
+    "I": {
+      "item": "oresmod:aluminum_ingot"
+    },
+    "T": {
+      "item": "oresmod:titanium_ingot"
+    }
+  },
+  "pattern": [
+    "TIT",
+    "IFI",
+    "TIT"
+  ],
+  "result": {
+    "item": "oresmod:light_reinforced_frosite_block"
+  },
+  "show_notification": true
+}

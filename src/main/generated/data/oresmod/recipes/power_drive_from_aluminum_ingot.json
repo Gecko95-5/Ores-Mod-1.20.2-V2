@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "oresmod:aluminum_ingot"
+    },
+    "C": {
+      "item": "oresmod:copper_drive"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ACA",
+    " A "
+  ],
+  "result": {
+    "item": "oresmod:power_drive"
+  },
+  "show_notification": true
+}

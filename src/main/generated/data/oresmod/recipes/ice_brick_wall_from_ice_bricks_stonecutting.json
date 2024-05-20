@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "oresmod:ice_bricks"
+  },
+  "result": "oresmod:ice_brick_wall"
+}

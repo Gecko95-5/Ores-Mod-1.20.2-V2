@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "oresmod:awkward_water_tank"
+    },
+    "W": {
+      "item": "minecraft:golden_carrot"
+    }
+  },
+  "pattern": [
+    " W ",
+    "WTW",
+    " W "
+  ],
+  "result": {
+    "item": "oresmod:night_vision_potion_tank"
+  },
+  "show_notification": true
+}

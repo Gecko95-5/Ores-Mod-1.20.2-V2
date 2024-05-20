@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "oresmod:nickel_block"
+    },
+    "N": {
+      "item": "oresmod:nickel_ingot"
+    },
+    "P": {
+      "item": "oresmod:handled_power_drive"
+    }
+  },
+  "pattern": [
+    "  P",
+    "NNB"
+  ],
+  "result": {
+    "item": "oresmod:nickel_chainsaw"
+  },
+  "show_notification": true
+}

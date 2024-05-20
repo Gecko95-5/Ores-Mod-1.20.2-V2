@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "A": {
+      "item": "oresmod:aluminum_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone_torch"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "ASA",
+    "ARA",
+    "ASA"
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:activator_rail"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "oresmod:leafite"
+    },
+    "S": {
+      "item": "oresmod:stonebark_sapling"
+    }
+  },
+  "pattern": [
+    " L ",
+    "LSL",
+    " L "
+  ],
+  "result": {
+    "count": 4,
+    "item": "oresmod:stonebark_sapling"
+  },
+  "show_notification": true
+}

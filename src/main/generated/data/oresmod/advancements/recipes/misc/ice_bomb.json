@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bomb": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:bomb"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_frosite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:frosite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ice_chunk": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:ice_chunk"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ice_bomb"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bomb",
+      "has_ice_chunk",
+      "has_frosite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ice_bomb"
+    ]
+  },
+  "sends_telemetry_event": false
+}

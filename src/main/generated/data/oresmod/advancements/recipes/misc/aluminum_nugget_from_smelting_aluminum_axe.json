@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aluminum_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:aluminum_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:aluminum_nugget_from_smelting_aluminum_axe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_aluminum_axe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:aluminum_nugget_from_smelting_aluminum_axe"
+    ]
+  },
+  "sends_telemetry_event": false
+}

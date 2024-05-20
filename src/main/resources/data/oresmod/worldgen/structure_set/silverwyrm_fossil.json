@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "oresmod:silverwyrm_fossil",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 163261026,
+    "spacing": 20,
+    "separation": 6
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:aluminum_block",
+    "oresmod:raw_aluminum_block",
+    "oresmod:aluminum_ore",
+    "oresmod:deepslate_aluminum_ore",
+    "oresmod:aluminum_door",
+    "oresmod:aluminum_trapdoor",
+    "oresmod:aluminum_bars",
+    "oresmod:aluminum_pressure_plate",
+    "oresmod:nickel_block",
+    "oresmod:raw_nickel_block",
+    "oresmod:nickel_pressure_plate",
+    "oresmod:nickel_ore",
+    "oresmod:deepslate_nickel_ore",
+    "oresmod:dripstone_copper_ore",
+    "oresmod:tuff_iron_ore",
+    "oresmod:iron_spikes",
+    "oresmod:aluminum_spikes",
+    "oresmod:cobblestone_iron_ore",
+    "oresmod:cobblestone_copper_ore",
+    "oresmod:cobblestone_lapis_ore",
+    "oresmod:cobblestone_aluminum_ore",
+    "oresmod:cobblestone_nickel_ore",
+    "oresmod:clay_lapis_ore"
+  ]
+}

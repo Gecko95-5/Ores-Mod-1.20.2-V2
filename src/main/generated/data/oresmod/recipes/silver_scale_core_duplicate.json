@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "minecraft:blackstone"
+    },
+    "C": {
+      "item": "oresmod:silver_scale_core"
+    },
+    "S": {
+      "item": "oresmod:silver_scale"
+    }
+  },
+  "pattern": [
+    "SBS",
+    "BCB",
+    "SBS"
+  ],
+  "result": {
+    "count": 4,
+    "item": "oresmod:silver_scale_core"
+  },
+  "show_notification": true
+}

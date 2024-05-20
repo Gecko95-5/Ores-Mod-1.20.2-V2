@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "oresmod:frosite_block"
+    },
+    "F": {
+      "item": "oresmod:frosite"
+    },
+    "P": {
+      "item": "oresmod:handled_power_drive"
+    }
+  },
+  "pattern": [
+    "  P",
+    "FFB"
+  ],
+  "result": {
+    "item": "oresmod:frosite_chainsaw"
+  },
+  "show_notification": true
+}

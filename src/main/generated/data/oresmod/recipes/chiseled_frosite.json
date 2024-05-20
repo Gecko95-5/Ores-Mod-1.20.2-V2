@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "oresmod:frosite_block"
+    },
+    "F": {
+      "item": "oresmod:frosite"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BFB",
+    "BBB"
+  ],
+  "result": {
+    "count": 4,
+    "item": "oresmod:chiseled_frosite"
+  },
+  "show_notification": true
+}

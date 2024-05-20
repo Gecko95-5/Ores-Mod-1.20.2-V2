@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sandstone_sandite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:sandstone_sandite_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sandite_from_blasting_sandstone_sandite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sandstone_sandite_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sandite_from_blasting_sandstone_sandite_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

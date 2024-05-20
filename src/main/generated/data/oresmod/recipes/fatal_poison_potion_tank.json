@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "oresmod:poison_potion_tank"
+    },
+    "W": {
+      "item": "minecraft:jungle_leaves"
+    }
+  },
+  "pattern": [
+    " W ",
+    "WTW",
+    " W "
+  ],
+  "result": {
+    "item": "oresmod:fatal_poison_potion_tank"
+  },
+  "show_notification": true
+}

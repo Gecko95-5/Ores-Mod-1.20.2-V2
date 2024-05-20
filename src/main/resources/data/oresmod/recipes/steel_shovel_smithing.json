@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "oresmod:steel_ingot"
+  },
+  "base": {
+    "item": "minecraft:iron_shovel"
+  },
+  "result": {
+    "item": "oresmod:steel_shovel"
+  },
+  "template": {
+    "item": "oresmod:steel_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oresmod:block/white_sandstone_slab"
+    },
+    "type=double": {
+      "model": "oresmod:block/white_sandstone"
+    },
+    "type=top": {
+      "model": "oresmod:block/white_sandstone_slab_top"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "oresmod:platinum_axe"
+    },
+    "C": {
+      "item": "oresmod:cobalt_ingot"
+    },
+    "H": {
+      "item": "oresmod:platinum_hoe"
+    },
+    "P": {
+      "item": "oresmod:platinum_pickaxe"
+    },
+    "S": {
+      "item": "oresmod:platinum_shovel"
+    }
+  },
+  "pattern": [
+    " P ",
+    "ACS",
+    " H "
+  ],
+  "result": {
+    "item": "oresmod:platinum_multi_tool"
+  },
+  "show_notification": true
+}

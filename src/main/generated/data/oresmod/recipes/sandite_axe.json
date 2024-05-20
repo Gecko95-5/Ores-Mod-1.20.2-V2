@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "oresmod:sandite"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "DD",
+    "DS",
+    " S"
+  ],
+  "result": {
+    "item": "oresmod:sandite_axe"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,59 @@
+{
+  "criteria": {
+    "raw_nickel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:raw_nickel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "raw_aluminum": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:raw_aluminum"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "raw_titanium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:raw_titanium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+    "display": {
+      "icon": {
+        "item": "oresmod:aluminum_drill"
+      },
+      "title": "Overwhelming Ores Mod",
+      "description": "A mod all about ores, and what you can do with them",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "background": "oresmod:textures/block/raw_steel_block.png"
+    },
+    "requirements": [
+      [
+        "raw_nickel",
+        "raw_aluminum",
+        "raw_titanium"
+      ]
+    ],
+    "sends_telemetry_event": true
+}

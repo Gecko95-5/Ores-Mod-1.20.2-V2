@@ -1,0 +1,34 @@
+{
+  "parent": "oresmod:steel_part_1",
+  "criteria": {
+    "steel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:steel_compound"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft a Steel Compound",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "oresmod:steel_compound"
+    },
+    "show_toast": true,
+    "title": "Your Close"
+  },
+  "requirements": [
+    [
+      "steel"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

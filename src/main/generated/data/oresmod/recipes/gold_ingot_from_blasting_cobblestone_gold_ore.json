@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "gold",
+  "ingredient": {
+    "item": "oresmod:cobblestone_gold_ore"
+  },
+  "result": "minecraft:gold_ingot"
+}

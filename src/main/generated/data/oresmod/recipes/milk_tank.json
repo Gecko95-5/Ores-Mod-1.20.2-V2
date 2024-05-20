@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:milk_bucket"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "T": {
+      "item": "oresmod:tungsten_block"
+    }
+  },
+  "pattern": [
+    "TGT",
+    "GBG",
+    "TGT"
+  ],
+  "result": {
+    "item": "oresmod:milk_tank"
+  },
+  "show_notification": true
+}

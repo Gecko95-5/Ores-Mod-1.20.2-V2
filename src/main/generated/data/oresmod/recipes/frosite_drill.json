@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "oresmod:frosite_block"
+    },
+    "F": {
+      "item": "oresmod:frosite"
+    },
+    "P": {
+      "item": "oresmod:handled_power_drive"
+    }
+  },
+  "pattern": [
+    " F ",
+    "FBP",
+    " F "
+  ],
+  "result": {
+    "item": "oresmod:frosite_drill"
+  },
+  "show_notification": true
+}

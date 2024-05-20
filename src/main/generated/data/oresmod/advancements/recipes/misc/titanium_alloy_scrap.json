@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:titanium_alloy_scrap"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_titanium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:titanium_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_tungsten_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:tungsten_nugget"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tungsten_nugget",
+      "has_titanium_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:titanium_alloy_scrap"
+    ]
+  },
+  "sends_telemetry_event": false
+}

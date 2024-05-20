@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "sannite",
+  "ingredient": {
+    "item": "oresmod:sandite_ore"
+  },
+  "result": "oresmod:sandite"
+}

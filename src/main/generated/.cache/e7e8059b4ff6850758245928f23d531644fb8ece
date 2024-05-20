@@ -1,0 +1,5 @@
+// 1.20.2	2024-05-19T21:18:39.441655	Overwhelming Ores Mod/Tags for minecraft:entity_type
+6d3d923d9dc456429a559e7eddc1d7239926dc03 data\minecraft\tags\entity_types\powder_snow_walkable_mobs.json
+97ed7eb2cb061232831f4e0e0ed2227f39019f29 data\minecraft\tags\entity_types\freeze_immune_entity_types.json
+9ba459b0abba063a62183fcb0a73fc0b5b8b347e data\minecraft\tags\entity_types\impact_projectiles.json
+8936af2fdff6dbebe029576491e3c7af0d4e7acb data\minecraft\tags\entity_types\fall_damage_immune.json

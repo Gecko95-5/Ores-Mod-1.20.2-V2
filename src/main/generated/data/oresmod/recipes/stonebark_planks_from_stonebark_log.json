@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "oresmod:stonebark_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "oresmod:stonebark_planks"
+  }
+}

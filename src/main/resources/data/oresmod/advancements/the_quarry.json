@@ -1,0 +1,38 @@
+{
+  "parent": "oresmod:ores_mod",
+  "criteria": {
+    "oresmod:quarry": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "oresmod:quarry"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Find the Quarry",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:cobblestone"
+    },
+    "show_toast": true,
+    "title": "The Cobblestone Fields"
+  },
+  "requirements": [
+    [
+      "oresmod:quarry"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

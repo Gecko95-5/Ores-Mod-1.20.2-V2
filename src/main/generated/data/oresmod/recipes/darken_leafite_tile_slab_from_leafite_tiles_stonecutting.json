@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "oresmod:leafite_tiles"
+  },
+  "result": "oresmod:darken_leafite_tile_slab"
+}

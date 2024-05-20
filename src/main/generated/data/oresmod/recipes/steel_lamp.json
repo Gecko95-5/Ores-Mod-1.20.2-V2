@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "oresmod:steel_bars"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "S": {
+      "item": "oresmod:steel_ingot"
+    }
+  },
+  "pattern": [
+    "SBS",
+    "BGB",
+    "SBS"
+  ],
+  "result": {
+    "item": "oresmod:steel_lamp"
+  },
+  "show_notification": true
+}

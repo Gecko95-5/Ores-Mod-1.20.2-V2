@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "oresmod:darken_end_ite_block"
+    },
+    "I": {
+      "item": "oresmod:end_ite"
+    }
+  },
+  "pattern": [
+    "IB",
+    "BI"
+  ],
+  "result": {
+    "count": 4,
+    "item": "oresmod:darken_end_ite_bricks"
+  },
+  "show_notification": true
+}

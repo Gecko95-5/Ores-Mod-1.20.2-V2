@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_light_sandite_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:light_sandite_tiles"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:light_sandite_tile_wall_from_light_sandite_tiles_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_light_sandite_tiles"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:light_sandite_tile_wall_from_light_sandite_tiles_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

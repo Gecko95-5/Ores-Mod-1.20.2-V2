@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "oresmod:healing_potion_tank"
+    },
+    "W": {
+      "item": "minecraft:fermented_spider_eye"
+    }
+  },
+  "pattern": [
+    " W ",
+    "WTW",
+    " W "
+  ],
+  "result": {
+    "item": "oresmod:harming_potion_tank"
+  },
+  "show_notification": true
+}

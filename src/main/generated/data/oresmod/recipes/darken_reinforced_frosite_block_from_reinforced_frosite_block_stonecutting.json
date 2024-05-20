@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "oresmod:reinforced_frosite_block"
+  },
+  "result": "oresmod:darken_reinforced_frosite_block"
+}

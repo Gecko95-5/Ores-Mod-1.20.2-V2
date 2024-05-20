@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "oresmod:weakness_potion_tank"
+    },
+    "W": {
+      "item": "minecraft:red_sand"
+    }
+  },
+  "pattern": [
+    " W ",
+    "WTW",
+    " W "
+  ],
+  "result": {
+    "item": "oresmod:heat_stroke_potion_tank"
+  },
+  "show_notification": true
+}

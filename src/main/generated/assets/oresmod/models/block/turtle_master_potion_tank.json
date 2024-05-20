@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "oresmod:block/turtle_master_potion_tank"
+  }
+}

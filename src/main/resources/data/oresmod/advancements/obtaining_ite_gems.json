@@ -1,0 +1,73 @@
+{
+  "parent": "oresmod:ores_mod",
+  "criteria": {
+    "frosite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:frosite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "sandite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:sandite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "leafite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:leafite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "end_ite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:end_ite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Find one of the four Elemental Gems",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "oresmod:frosite"
+    },
+    "show_toast": true,
+    "title": "Gem Finder"
+  },
+  "requirements": [
+    [
+      "frosite",
+      "sandite",
+      "leafite",
+      "end_ite"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

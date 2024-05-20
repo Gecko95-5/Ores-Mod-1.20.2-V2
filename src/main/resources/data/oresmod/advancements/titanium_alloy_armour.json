@@ -1,0 +1,49 @@
+{
+  "parent": "oresmod:obtaining_titanium_alloy_ingot",
+  "criteria": {
+    "armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:titanium_alloy_helmet"
+            ]
+          },
+          {
+            "items": [
+              "oresmod:titanium_alloy_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "oresmod:titanium_alloy_leggings"
+            ]
+          },
+          {
+            "items": [
+              "oresmod:titanium_alloy_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Get a Full suit of Titanium Alloy Armor",
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "oresmod:titanium_alloy_chestplate"
+    },
+    "show_toast": true,
+    "title": "The Armor of the Titans"
+  },
+  "requirements": [
+    [
+      "armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

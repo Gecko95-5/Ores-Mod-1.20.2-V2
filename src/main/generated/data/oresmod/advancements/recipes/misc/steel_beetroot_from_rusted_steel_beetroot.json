@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_powdered_salt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:powdered_salt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_rusted_steel_beetroot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:rusted_steel_beetroot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:steel_beetroot_from_rusted_steel_beetroot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rusted_steel_beetroot",
+      "has_powdered_salt"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:steel_beetroot_from_rusted_steel_beetroot"
+    ]
+  },
+  "sends_telemetry_event": false
+}

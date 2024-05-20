@@ -1,0 +1,34 @@
+{
+  "parent": "oresmod:obtaining_titanium_ingot",
+  "criteria": {
+    "titanium_alloy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:titanium_alloy_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Smelt or Obtain a Titanium Alloy Ingot",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "oresmod:titanium_alloy_ingot"
+    },
+    "show_toast": true,
+    "title": "Ore of The Titans"
+  },
+  "requirements": [
+    [
+      "titanium_alloy"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

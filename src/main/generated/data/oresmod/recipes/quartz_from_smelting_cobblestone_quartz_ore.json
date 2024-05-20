@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "quartz",
+  "ingredient": {
+    "item": "oresmod:cobblestone_quartz_ore"
+  },
+  "result": "minecraft:quartz"
+}

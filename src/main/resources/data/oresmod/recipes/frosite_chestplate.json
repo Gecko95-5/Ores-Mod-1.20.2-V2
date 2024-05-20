@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "oresmod:frosite"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    "W W",
+    "FFF",
+    "FFF"
+  ],
+  "result": {
+    "item": "oresmod:frosite_chestplate"
+  },
+  "show_notification": true
+}

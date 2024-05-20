@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "oresmod:block/leafite_tiles",
+    "side": "oresmod:block/leafite_tiles",
+    "top": "oresmod:block/leafite_tiles"
+  }
+}

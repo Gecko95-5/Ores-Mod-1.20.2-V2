@@ -1,0 +1,34 @@
+{
+  "parent": "oresmod:obtaining_tungsten_ingot",
+  "criteria": {
+    "tungsten": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:water_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft Water Tank",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "oresmod:water_tank"
+    },
+    "show_toast": true,
+    "title": "Tanker of Water"
+  },
+  "requirements": [
+    [
+      "tungsten"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

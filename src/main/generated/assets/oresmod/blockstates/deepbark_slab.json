@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oresmod:block/deepbark_slab"
+    },
+    "type=double": {
+      "model": "oresmod:block/deepslate_planks"
+    },
+    "type=top": {
+      "model": "oresmod:block/deepbark_slab_top"
+    }
+  }
+}

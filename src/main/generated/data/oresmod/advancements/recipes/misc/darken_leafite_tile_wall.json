@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_darken_leafite_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:darken_leafite_tiles"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "oresmod:darken_leafite_tile_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_darken_leafite_tiles"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "oresmod:darken_leafite_tile_wall"
+    ]
+  },
+  "sends_telemetry_event": false
+}

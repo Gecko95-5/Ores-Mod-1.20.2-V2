@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oresmod:block/frosite_brick_slab"
+    },
+    "type=double": {
+      "model": "oresmod:block/frosite_bricks"
+    },
+    "type=top": {
+      "model": "oresmod:block/frosite_brick_slab_top"
+    }
+  }
+}

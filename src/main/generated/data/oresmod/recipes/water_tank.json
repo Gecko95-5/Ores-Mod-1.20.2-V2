@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "T": {
+      "item": "oresmod:tungsten_block"
+    }
+  },
+  "pattern": [
+    "TGT",
+    "GBG",
+    "TGT"
+  ],
+  "result": {
+    "item": "oresmod:water_tank"
+  },
+  "show_notification": true
+}

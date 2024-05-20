@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_powdered_salt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:powdered_salt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_rusted_steel_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:rusted_steel_door"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:lighty_rusted_steel_door_from_rusted_steel_door"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rusted_steel_door",
+      "has_powdered_salt"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:lighty_rusted_steel_door_from_rusted_steel_door"
+    ]
+  },
+  "sends_telemetry_event": false
+}

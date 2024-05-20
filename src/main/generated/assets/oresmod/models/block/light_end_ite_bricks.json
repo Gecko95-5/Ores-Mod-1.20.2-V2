@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "oresmod:block/light_end_ite_bricks"
+  }
+}

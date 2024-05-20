@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "oresmod:end_ite_block"
+    },
+    "E": {
+      "item": "oresmod:end_ite"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BEB",
+    "BBB"
+  ],
+  "result": {
+    "count": 4,
+    "item": "oresmod:chiseled_end_ite"
+  },
+  "show_notification": true
+}

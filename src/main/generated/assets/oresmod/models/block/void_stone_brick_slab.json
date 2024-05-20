@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "oresmod:block/void_stone_bricks",
+    "side": "oresmod:block/void_stone_bricks",
+    "top": "oresmod:block/void_stone_bricks"
+  }
+}

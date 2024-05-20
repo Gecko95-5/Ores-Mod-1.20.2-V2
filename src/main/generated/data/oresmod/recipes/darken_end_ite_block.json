@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "oresmod:end_ite_block"
+    },
+    "I": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    "IB",
+    "BI"
+  ],
+  "result": {
+    "count": 4,
+    "item": "oresmod:darken_end_ite_block"
+  },
+  "show_notification": true
+}

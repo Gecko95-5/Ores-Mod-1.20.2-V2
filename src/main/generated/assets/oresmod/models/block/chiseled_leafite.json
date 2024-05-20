@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "oresmod:block/chiseled_leafite_bottom",
+    "side": "oresmod:block/chiseled_leafite_side",
+    "top": "oresmod:block/chiseled_leafite_top"
+  }
+}

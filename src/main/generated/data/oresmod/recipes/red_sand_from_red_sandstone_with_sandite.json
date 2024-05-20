@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:red_sandstone"
+    },
+    "S": {
+      "item": "oresmod:sandite"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SDS",
+    " S "
+  ],
+  "result": {
+    "count": 32,
+    "item": "minecraft:red_sand"
+  },
+  "show_notification": true
+}

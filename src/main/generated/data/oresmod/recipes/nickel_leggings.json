@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "N": {
+      "item": "oresmod:nickel_ingot"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "N N",
+    "N N"
+  ],
+  "result": {
+    "item": "oresmod:nickel_leggings"
+  },
+  "show_notification": true
+}

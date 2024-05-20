@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "oresmod:sandite"
+    },
+    "S": {
+      "item": "oresmod:sandite_block"
+    }
+  },
+  "pattern": [
+    "IS",
+    "SI"
+  ],
+  "result": {
+    "count": 4,
+    "item": "oresmod:sandite_bricks"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "oresmod:silver_mandible"
+    }
+  ],
+  "result": {
+    "count": 5,
+    "item": "oresmod:silver_scale"
+  }
+}

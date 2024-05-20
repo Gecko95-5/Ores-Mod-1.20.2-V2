@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oresmod:block/leafite_brick_slab"
+    },
+    "type=double": {
+      "model": "oresmod:block/leafite_bricks"
+    },
+    "type=top": {
+      "model": "oresmod:block/leafite_brick_slab_top"
+    }
+  }
+}

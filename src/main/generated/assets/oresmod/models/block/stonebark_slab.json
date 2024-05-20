@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "oresmod:block/stonebark_planks",
+    "side": "oresmod:block/stonebark_planks",
+    "top": "oresmod:block/stonebark_planks"
+  }
+}

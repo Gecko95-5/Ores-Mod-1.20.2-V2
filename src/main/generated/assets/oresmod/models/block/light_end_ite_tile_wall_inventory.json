@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "oresmod:block/light_end_ite_tiles"
+  }
+}

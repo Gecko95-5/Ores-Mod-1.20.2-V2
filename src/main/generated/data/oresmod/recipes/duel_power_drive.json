@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "oresmod:copper_drive"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "PIC",
+    "III",
+    "CIP"
+  ],
+  "result": {
+    "item": "oresmod:duel_power_drive"
+  },
+  "show_notification": true
+}

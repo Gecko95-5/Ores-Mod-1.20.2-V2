@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "oresmod:steel_bars"
+    },
+    "S": {
+      "item": "oresmod:steel_ingot"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "BBB"
+  ],
+  "result": {
+    "item": "oresmod:steel_spikes"
+  },
+  "show_notification": true
+}

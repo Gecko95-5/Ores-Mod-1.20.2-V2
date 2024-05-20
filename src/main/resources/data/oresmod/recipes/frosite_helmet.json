@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "oresmod:frosite"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "F F",
+    " F "
+  ],
+  "result": {
+    "item": "oresmod:frosite_helmet"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oresmod:block/stonebark_slab"
+    },
+    "type=double": {
+      "model": "oresmod:block/stonebark_planks"
+    },
+    "type=top": {
+      "model": "oresmod:block/stonebark_slab_top"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "parent": "oresmod:towers",
+  "criteria": {
+    "minecraft:stray": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:stray"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "oresmod:frostbiten": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "oresmod:frostbiten"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "oresmod:ice_cube": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "oresmod:ice_cube"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "oresmod:frosite_golem": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "oresmod:frosite_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Kill one of each mob that appear in the frosite structures",
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "oresmod:frosite_sword"
+    },
+    "show_toast": true,
+    "title": "Frost Killer"
+  },
+  "requirements": [
+    [
+      "minecraft:stray"
+    ],
+    [
+      "oresmod:frostbiten"
+    ],
+    [
+      "oresmod:ice_cube"
+    ],
+    [
+      "oresmod:frosite_golem"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

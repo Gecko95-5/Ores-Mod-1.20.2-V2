@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:orange_dye"
+    },
+    "T": {
+      "item": "oresmod:terracotta_helmet"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DTD",
+    "DDD"
+  ],
+  "result": {
+    "item": "oresmod:orange_terracotta_helmet"
+  },
+  "show_notification": true
+}

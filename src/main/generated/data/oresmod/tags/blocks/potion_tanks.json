@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:fire_resistance_potion_tank",
+    "oresmod:healing_potion_tank",
+    "oresmod:regeneration_potion_tank",
+    "oresmod:strength_potion_tank",
+    "oresmod:swiftness_potion_tank",
+    "oresmod:night_vision_potion_tank",
+    "oresmod:invisibility_potion_tank",
+    "oresmod:water_breathing_potion_tank",
+    "oresmod:leaping_potion_tank",
+    "oresmod:slow_falling_potion_tank",
+    "oresmod:poison_potion_tank",
+    "oresmod:weakness_potion_tank",
+    "oresmod:harming_potion_tank",
+    "oresmod:slowness_potion_tank",
+    "oresmod:turtle_master_potion_tank",
+    "oresmod:frostbite_potion_tank",
+    "oresmod:heat_stroke_potion_tank",
+    "oresmod:fatal_poison_potion_tank",
+    "oresmod:void_sickness_potion_tank"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "oresmod:block/stripped_stonebark_log_top",
+    "side": "oresmod:block/stripped_stonebark_log"
+  }
+}

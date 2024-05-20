@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "oresmod:block/deepslate_planks",
+    "side": "oresmod:block/deepslate_planks",
+    "top": "oresmod:block/deepslate_planks"
+  }
+}

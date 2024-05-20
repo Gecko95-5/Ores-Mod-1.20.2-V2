@@ -1,0 +1,49 @@
+{
+  "parent": "oresmod:obtaining_tungsten_ingot",
+  "criteria": {
+    "armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:tungsten_helmet"
+            ]
+          },
+          {
+            "items": [
+              "oresmod:tungsten_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "oresmod:tungsten_leggings"
+            ]
+          },
+          {
+            "items": [
+              "oresmod:tungsten_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Get a Full suit of Tungsten Armor",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "oresmod:tungsten_helmet"
+    },
+    "show_toast": true,
+    "title": "Lava Diver"
+  },
+  "requirements": [
+    [
+      "armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

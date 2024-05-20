@@ -1,0 +1,139 @@
+{
+  "parent": "oresmod:obtaining_platinum_ingot",
+  "criteria": {
+    "aluminum_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:aluminum_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "nickel_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:nickel_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "steel_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:steel_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "titanium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:titanium_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "tungsten_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:tungsten_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "titanium_alloy_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:titanium_alloy_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cobalt_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:cobalt_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "platinum_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:platinum_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Collect all of the Mods Mineral",
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "oresmod:netherite_drill"
+    },
+    "show_toast": true,
+    "title": "Mineral Collector"
+  },
+  "requirements": [
+    [
+      "aluminum_ingot"
+    ],
+    [
+      "nickel_ingot"
+    ],
+    [
+      "steel_ingot"
+    ],
+    [
+      "titanium_ingot"
+    ],
+    [
+      "tungsten_ingot"
+    ],
+    [
+      "titanium_alloy_ingot"
+    ],
+    [
+      "cobalt_ingot"
+    ],
+    [
+      "platinum_ingot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

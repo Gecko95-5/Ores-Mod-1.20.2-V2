@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stonebark_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:stonebark_wood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stonebark_planks_from_stonebark_wood"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stonebark_wood"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stonebark_planks_from_stonebark_wood"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "aluminum_nugget",
+  "ingredient": {
+    "item": "oresmod:aluminum_pickaxe"
+  },
+  "result": "oresmod:aluminum_nugget"
+}

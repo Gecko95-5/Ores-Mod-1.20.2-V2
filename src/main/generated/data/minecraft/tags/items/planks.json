@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:stonebark_planks",
+    "oresmod:deepslate_planks",
+    "oresmod:leafite_planks"
+  ]
+}

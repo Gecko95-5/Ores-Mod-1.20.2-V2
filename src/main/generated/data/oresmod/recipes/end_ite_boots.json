@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "E": {
+      "item": "oresmod:end_ite"
+    }
+  },
+  "pattern": [
+    "E E",
+    "C C"
+  ],
+  "result": {
+    "item": "oresmod:end_ite_boots"
+  },
+  "show_notification": true
+}

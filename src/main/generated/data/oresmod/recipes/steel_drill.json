@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "oresmod:steel_ingot"
+    },
+    "I": {
+      "item": "oresmod:steel_compound"
+    },
+    "P": {
+      "item": "oresmod:duel_handled_power_drive"
+    }
+  },
+  "pattern": [
+    " I ",
+    "IBP",
+    " I "
+  ],
+  "result": {
+    "item": "oresmod:steel_drill"
+  },
+  "show_notification": true
+}

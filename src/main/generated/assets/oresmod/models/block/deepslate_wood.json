@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "oresmod:block/deepslate_log",
+    "side": "oresmod:block/deepslate_log"
+  }
+}

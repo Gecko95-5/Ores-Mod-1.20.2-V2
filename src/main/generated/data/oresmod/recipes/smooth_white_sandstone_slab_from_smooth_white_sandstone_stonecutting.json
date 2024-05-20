@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "oresmod:smooth_white_sandstone"
+  },
+  "result": "oresmod:smooth_white_sandstone_slab"
+}

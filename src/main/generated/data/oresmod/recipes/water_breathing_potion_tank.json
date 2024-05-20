@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "oresmod:awkward_water_tank"
+    },
+    "W": {
+      "item": "minecraft:pufferfish"
+    }
+  },
+  "pattern": [
+    " W ",
+    "WTW",
+    " W "
+  ],
+  "result": {
+    "item": "oresmod:water_breathing_potion_tank"
+  },
+  "show_notification": true
+}

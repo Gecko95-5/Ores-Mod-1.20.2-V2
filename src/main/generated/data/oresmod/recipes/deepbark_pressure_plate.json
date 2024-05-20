@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "S": {
+      "item": "oresmod:deepslate_planks"
+    }
+  },
+  "pattern": [
+    "SS"
+  ],
+  "result": {
+    "item": "oresmod:deepbark_pressure_plate"
+  },
+  "show_notification": true
+}

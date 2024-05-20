@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "oresmod:leafite"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "LL",
+    " S",
+    " S"
+  ],
+  "result": {
+    "item": "oresmod:leafite_hoe"
+  },
+  "show_notification": true
+}

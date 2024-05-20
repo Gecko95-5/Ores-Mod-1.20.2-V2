@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blackstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blackstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_silver_scale": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:silver_scale"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_silver_scale_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:silver_scale_core"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:silver_scale_core_duplicate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_silver_scale",
+      "has_blackstone",
+      "has_silver_scale_core"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:silver_scale_core_duplicate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

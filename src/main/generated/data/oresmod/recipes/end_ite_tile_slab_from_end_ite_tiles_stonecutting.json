@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "oresmod:end_ite_tiles"
+  },
+  "result": "oresmod:end_ite_tile_slab"
+}

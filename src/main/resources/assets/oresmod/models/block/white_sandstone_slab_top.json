@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "oresmod:block/white_sandstone_bottom",
+    "side": "oresmod:block/white_sandstone_side",
+    "top": "oresmod:block/white_sandstone_top"
+  }
+}

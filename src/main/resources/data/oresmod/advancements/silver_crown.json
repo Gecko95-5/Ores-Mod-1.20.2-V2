@@ -1,0 +1,34 @@
+{
+  "parent": "oresmod:silver_wyrm_fossil",
+  "criteria": {
+    "steel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:silver_crown"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft Silver Crown",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "oresmod:silver_crown"
+    },
+    "show_toast": true,
+    "title": "Crowned"
+  },
+  "requirements": [
+    [
+      "steel"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

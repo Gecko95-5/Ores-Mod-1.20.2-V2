@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:stonebark_pressure_plate",
+    "oresmod:deepbark_pressure_plate",
+    "oresmod:leafite_planks_pressure_plate"
+  ]
+}

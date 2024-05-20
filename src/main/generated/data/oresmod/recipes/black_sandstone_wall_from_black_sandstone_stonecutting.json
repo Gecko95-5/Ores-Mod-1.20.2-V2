@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "oresmod:black_sandstone"
+  },
+  "result": "oresmod:black_sandstone_wall"
+}

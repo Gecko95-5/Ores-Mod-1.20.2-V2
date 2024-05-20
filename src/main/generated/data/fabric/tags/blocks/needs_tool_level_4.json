@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:fake_bedrock",
+    "oresmod:cracked_bedrock",
+    "oresmod:polished_bedrock",
+    "oresmod:polished_bedrock_stairs",
+    "oresmod:polished_bedrock_slab",
+    "oresmod:polished_bedrock_wall",
+    "oresmod:polished_bedrock_bricks",
+    "oresmod:polished_bedrock_bricks_stairs",
+    "oresmod:polished_bedrock_bricks_slab",
+    "oresmod:polished_bedrock_bricks_wall",
+    "oresmod:chiseled_polished_bedrock"
+  ]
+}

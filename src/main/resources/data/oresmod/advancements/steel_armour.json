@@ -1,0 +1,49 @@
+{
+  "parent": "oresmod:steel_part_3",
+  "criteria": {
+    "armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:steel_helmet"
+            ]
+          },
+          {
+            "items": [
+              "oresmod:steel_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "oresmod:steel_leggings"
+            ]
+          },
+          {
+            "items": [
+              "oresmod:steel_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Get a Full suit of Steel Armor",
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "oresmod:steel_chestplate"
+    },
+    "show_toast": true,
+    "title": "Coated in Steel"
+  },
+  "requirements": [
+    [
+      "armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

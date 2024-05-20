@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "S": {
+      "item": "oresmod:sandite"
+    }
+  },
+  "pattern": [
+    "LLL",
+    "S S",
+    "S S"
+  ],
+  "result": {
+    "item": "oresmod:sandite_leggings"
+  },
+  "show_notification": true
+}

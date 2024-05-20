@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aluminum_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:aluminum_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:aluminum_nugget_from_blasting_aluminum_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_aluminum_sword"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:aluminum_nugget_from_blasting_aluminum_sword"
+    ]
+  },
+  "sends_telemetry_event": false
+}

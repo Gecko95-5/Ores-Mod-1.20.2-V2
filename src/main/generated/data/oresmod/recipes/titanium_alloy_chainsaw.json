@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "oresmod:titanium_alloy_ingot"
+    },
+    "I": {
+      "item": "oresmod:titanium_alloy_scrap"
+    },
+    "P": {
+      "item": "oresmod:duel_handled_power_drive"
+    }
+  },
+  "pattern": [
+    "  P",
+    "IIB"
+  ],
+  "result": {
+    "item": "oresmod:titanium_alloy_chainsaw"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "E": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "pattern": [
+    "EA",
+    "AE"
+  ],
+  "result": {
+    "count": 4,
+    "item": "oresmod:void_stone"
+  },
+  "show_notification": true
+}

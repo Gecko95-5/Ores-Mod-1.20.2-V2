@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "oresmod:silver_scale"
+    },
+    "T": {
+      "item": "oresmod:titanium_ingot"
+    }
+  },
+  "pattern": [
+    "S S",
+    "SSS",
+    "TTT"
+  ],
+  "result": {
+    "item": "oresmod:silver_crown"
+  },
+  "show_notification": true
+}

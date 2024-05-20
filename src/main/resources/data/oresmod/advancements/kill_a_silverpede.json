@@ -1,0 +1,36 @@
+{
+  "parent": "oresmod:the_quarry",
+  "criteria": {
+    "oresmod:silverpede": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "oresmod:silverpede"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Kill a Silverpede",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "oresmod:silver_scale"
+    },
+    "show_toast": true,
+    "title": "Silver Killer"
+  },
+  "requirements": [
+    [
+      "oresmod:silverpede"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

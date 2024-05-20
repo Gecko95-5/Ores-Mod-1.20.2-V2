@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:stonebark_log",
+    "oresmod:deepslate_log",
+    "oresmod:leafite_log",
+    "oresmod:stonebark_wood",
+    "oresmod:deepslate_wood",
+    "oresmod:leafite_wood",
+    "oresmod:stripped_stonebark_log",
+    "oresmod:stripped_deepslate_log",
+    "oresmod:stripped_leafite_log",
+    "oresmod:stripped_stonebark_wood",
+    "oresmod:stripped_deepslate_wood",
+    "oresmod:stripped_leafite_wood"
+  ]
+}

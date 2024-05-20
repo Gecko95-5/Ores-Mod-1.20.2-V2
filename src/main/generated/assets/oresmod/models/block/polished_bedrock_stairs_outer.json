@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "oresmod:block/polished_bedrock",
+    "side": "oresmod:block/polished_bedrock",
+    "top": "oresmod:block/polished_bedrock"
+  }
+}

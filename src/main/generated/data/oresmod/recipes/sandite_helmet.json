@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "S": {
+      "item": "oresmod:sandite"
+    }
+  },
+  "pattern": [
+    "SLS",
+    "S S"
+  ],
+  "result": {
+    "item": "oresmod:sandite_helmet"
+  },
+  "show_notification": true
+}

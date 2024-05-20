@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oresmod:block/rusted_steel_slab"
+    },
+    "type=double": {
+      "model": "oresmod:block/rusted_steel_block"
+    },
+    "type=top": {
+      "model": "oresmod:block/rusted_steel_slab_top"
+    }
+  }
+}

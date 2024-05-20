@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glowstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glowstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lighty_rusted_steel_bars": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:lighty_rusted_steel_bars"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lighty_rusted_steel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:lighty_rusted_steel_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:lighty_rusted_steel_lamp_from_lighty_rusted_steel_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lighty_rusted_steel_block",
+      "has_lighty_rusted_steel_bars",
+      "has_glowstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:lighty_rusted_steel_lamp_from_lighty_rusted_steel_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

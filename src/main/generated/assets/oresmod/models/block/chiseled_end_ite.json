@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "oresmod:block/chiseled_end_ite_bottom",
+    "side": "oresmod:block/chiseled_end_ite_side",
+    "top": "oresmod:block/chiseled_end_ite_top"
+  }
+}

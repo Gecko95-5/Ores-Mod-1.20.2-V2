@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "oresmod:leafite_block"
+    },
+    "L": {
+      "item": "oresmod:leafite"
+    },
+    "P": {
+      "item": "oresmod:handled_power_drive"
+    }
+  },
+  "pattern": [
+    "  P",
+    "LLB"
+  ],
+  "result": {
+    "item": "oresmod:leafite_chainsaw"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "oresmod:silver_mandible"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "MS ",
+    "MSS",
+    " S "
+  ],
+  "result": {
+    "item": "oresmod:mandible_hatchet"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "oresmod:obtaining_ite_gems",
+  "criteria": {
+    "frosite": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "oresmod:frosite_tower"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Enter a Tower made form the Elemental Gem Blocks",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "oresmod:frosite_bricks"
+    },
+    "show_toast": true,
+    "title": "Elemental Towers"
+  },
+  "requirements": [
+    [
+      "frosite"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

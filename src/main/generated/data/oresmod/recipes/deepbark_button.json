@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "oresmod:deepslate_planks"
+    }
+  ],
+  "result": {
+    "item": "oresmod:deepbark_button"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oresmod:block/light_sandite_brick_slab"
+    },
+    "type=double": {
+      "model": "oresmod:block/light_sandite_bricks"
+    },
+    "type=top": {
+      "model": "oresmod:block/light_sandite_brick_slab_top"
+    }
+  }
+}

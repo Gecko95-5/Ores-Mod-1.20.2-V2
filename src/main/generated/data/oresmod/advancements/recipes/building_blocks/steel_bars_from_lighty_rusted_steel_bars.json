@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lighty_rusted_steel_bars": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:lighty_rusted_steel_bars"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_powdered_salt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:powdered_salt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:steel_bars_from_lighty_rusted_steel_bars"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lighty_rusted_steel_bars",
+      "has_powdered_salt"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:steel_bars_from_lighty_rusted_steel_bars"
+    ]
+  },
+  "sends_telemetry_event": false
+}

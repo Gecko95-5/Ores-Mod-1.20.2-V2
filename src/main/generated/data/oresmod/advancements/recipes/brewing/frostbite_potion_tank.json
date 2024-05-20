@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blue_ice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_ice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_slowness_potion_tank": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:slowness_potion_tank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:frostbite_potion_tank"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_blue_ice",
+      "has_slowness_potion_tank"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:frostbite_potion_tank"
+    ]
+  },
+  "sends_telemetry_event": false
+}

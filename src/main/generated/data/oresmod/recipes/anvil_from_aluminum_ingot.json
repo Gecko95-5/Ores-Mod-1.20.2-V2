@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "oresmod:aluminum_ingot"
+    },
+    "B": {
+      "item": "oresmod:aluminum_block"
+    }
+  },
+  "pattern": [
+    "BBB",
+    " A ",
+    "AAA"
+  ],
+  "result": {
+    "item": "minecraft:anvil"
+  },
+  "show_notification": true
+}

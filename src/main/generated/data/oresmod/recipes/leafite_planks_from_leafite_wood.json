@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "oresmod:leafite_wood"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "oresmod:leafite_planks"
+  }
+}

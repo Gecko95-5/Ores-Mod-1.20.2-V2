@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:ice_projectile",
+    "oresmod:bomb_projectile",
+    "oresmod:ice_bomb_projectile"
+  ]
+}

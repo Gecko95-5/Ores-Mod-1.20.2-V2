@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:salt_block",
+    "oresmod:stonebark_leaves",
+    "oresmod:deepslate_leaves",
+    "oresmod:leafite_leaves",
+    "oresmod:leafite_leaves_ore",
+    "oresmod:sculk_diamond_ore"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "oresmod:fake_bedrock"
+  },
+  "result": "oresmod:polished_bedrock_bricks_wall"
+}

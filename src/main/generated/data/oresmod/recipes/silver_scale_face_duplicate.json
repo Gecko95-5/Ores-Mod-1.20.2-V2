@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:soul_sand"
+    },
+    "C": {
+      "item": "oresmod:silver_scale_face"
+    },
+    "S": {
+      "item": "oresmod:silver_scale"
+    }
+  },
+  "pattern": [
+    "SAS",
+    "ACA",
+    "SAS"
+  ],
+  "result": {
+    "count": 2,
+    "item": "oresmod:silver_scale_face"
+  },
+  "show_notification": true
+}

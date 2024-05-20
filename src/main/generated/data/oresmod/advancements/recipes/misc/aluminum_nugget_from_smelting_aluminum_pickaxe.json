@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aluminum_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:aluminum_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:aluminum_nugget_from_smelting_aluminum_pickaxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_aluminum_pickaxe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:aluminum_nugget_from_smelting_aluminum_pickaxe"
+    ]
+  },
+  "sends_telemetry_event": false
+}

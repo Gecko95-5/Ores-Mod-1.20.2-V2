@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "oresmod:duel_power_drive"
+    },
+    {
+      "item": "oresmod:cobalt_handle"
+    }
+  ],
+  "result": {
+    "item": "oresmod:duel_handled_power_drive"
+  }
+}

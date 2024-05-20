@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "I": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "P": {
+      "item": "oresmod:duel_handled_power_drive"
+    }
+  },
+  "pattern": [
+    "  P",
+    "IIB"
+  ],
+  "result": {
+    "item": "oresmod:netherite_chainsaw"
+  },
+  "show_notification": true
+}

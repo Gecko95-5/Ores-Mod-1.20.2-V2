@@ -1,0 +1,99 @@
+{
+  "parent": "oresmod:obtaining_copper_ingot",
+  "criteria": {
+    "iron": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:iron_chainsaw"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diamond": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:diamond_chainsaw"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gold": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:golden_chainsaw"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "aluminum": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:aluminum_chainsaw"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "nickel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:nickel_chainsaw"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:copper_chainsaw"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft a Chainsaw",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "oresmod:copper_chainsaw"
+    },
+    "show_toast": true,
+    "title": "Ultra Chopper"
+  },
+  "requirements": [
+    [
+      "iron",
+      "diamond",
+      "gold",
+      "aluminum",
+      "nickel",
+      "copper"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

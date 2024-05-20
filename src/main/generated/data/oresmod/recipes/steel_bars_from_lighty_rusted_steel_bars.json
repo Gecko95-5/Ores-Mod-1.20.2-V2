@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "oresmod:lighty_rusted_steel_bars"
+    },
+    {
+      "item": "oresmod:powdered_salt"
+    }
+  ],
+  "result": {
+    "item": "oresmod:steel_bars"
+  }
+}

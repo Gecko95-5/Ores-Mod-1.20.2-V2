@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "oresmod:block/sculk_diamond_ore"
+    }
+  }
+}

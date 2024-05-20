@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "end_ite",
+  "ingredient": {
+    "item": "oresmod:end_ite_ore"
+  },
+  "result": "oresmod:end_ite"
+}

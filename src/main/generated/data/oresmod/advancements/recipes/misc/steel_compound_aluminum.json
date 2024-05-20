@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aluminum_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:aluminum_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_iron_ball": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:iron_ball"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:steel_compound_aluminum"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_iron_ball",
+      "has_aluminum_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:steel_compound_aluminum"
+    ]
+  },
+  "sends_telemetry_event": false
+}

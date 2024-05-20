@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chiseled_sandite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:chiseled_sandite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sandite_from_chiseled_sandite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chiseled_sandite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sandite_from_chiseled_sandite"
+    ]
+  },
+  "sends_telemetry_event": false
+}

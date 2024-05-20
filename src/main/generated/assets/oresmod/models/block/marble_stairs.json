@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "oresmod:block/marble",
+    "side": "oresmod:block/marble",
+    "top": "oresmod:block/marble"
+  }
+}

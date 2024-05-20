@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_polished_bedrock": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:polished_bedrock"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "oresmod:polished_bedrock_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_polished_bedrock"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "oresmod:polished_bedrock_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

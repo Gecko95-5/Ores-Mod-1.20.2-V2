@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "oresmod:titanium_ingot"
+    }
+  },
+  "pattern": [
+    "TT",
+    " S",
+    " S"
+  ],
+  "result": {
+    "item": "oresmod:titanium_hoe"
+  },
+  "show_notification": true
+}

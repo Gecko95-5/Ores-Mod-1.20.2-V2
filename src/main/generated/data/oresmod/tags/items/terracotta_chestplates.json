@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:black_terracotta_chestplate",
+    "oresmod:blue_terracotta_chestplate",
+    "oresmod:brown_terracotta_chestplate",
+    "oresmod:cyan_terracotta_chestplate",
+    "oresmod:gray_terracotta_chestplate",
+    "oresmod:green_terracotta_chestplate",
+    "oresmod:light_blue_terracotta_chestplate",
+    "oresmod:light_gray_terracotta_chestplate",
+    "oresmod:lime_terracotta_chestplate",
+    "oresmod:magenta_terracotta_chestplate",
+    "oresmod:orange_terracotta_chestplate",
+    "oresmod:pink_terracotta_chestplate",
+    "oresmod:purple_terracotta_chestplate",
+    "oresmod:red_terracotta_chestplate",
+    "oresmod:white_terracotta_chestplate",
+    "oresmod:yellow_terracotta_chestplate"
+  ]
+}
